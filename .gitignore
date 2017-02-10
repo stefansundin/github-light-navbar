@@ -1,0 +1,8 @@
+Thumbs.db
+*.DS_Store
+*.swp
+
+/*.crx
+/*.xpi
+/*.zip
+/*.pem
