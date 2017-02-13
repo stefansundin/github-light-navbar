@@ -1,6 +1,6 @@
 {
   "name": "GitHub Light Navbar",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Brings back the old navbar.",
   "homepage_url": "https://github.com/stefansundin/github-light-navbar",
   "author": "Stefan Sundin",
@@ -10,8 +10,7 @@
   "content_scripts": [
     {
       "matches": ["https://*.github.com/*"],
-      "js": ["github.js"],
-      "run_at": "document_end"
+      "css": ["github.css"]
     }
   ],
   "manifest_version": 2
