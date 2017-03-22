@@ -89,3 +89,15 @@
 .header-search-input::placeholder {
   color: rgba(0,0,0,.5) !important;
 }
+
+
+/* expand text box when focused */
+.header-search  {
+  width: auto !important;
+}
+.header-search .header-search-wrapper {
+  width: 300px;
+}
+.header-search .header-search-wrapper.focus {
+  width: 500px;
+}
