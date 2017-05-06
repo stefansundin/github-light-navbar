@@ -101,3 +101,9 @@
 .header-search .header-search-wrapper.focus {
   width: 500px;
 }
+
+
+/* allow textarea to be resized to a max-height larger than 500px (why would they even think about limiting this?!) */
+textarea {
+  max-height: none !important;
+}
