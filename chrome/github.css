@@ -101,6 +101,10 @@
 .header-search .header-search-wrapper.focus {
   width: 500px;
 }
+.js-quicksearch-results {
+  /* without this, it's not possible to click to the right of 300px in the gist quicksearch results */
+  width: 500px !important;
+}
 
 
 /* allow textarea to be resized to a max-height larger than 500px (why would they even think about limiting this?!) */
