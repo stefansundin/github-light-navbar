@@ -90,6 +90,10 @@
   color: rgba(0,0,0,.5) !important;
 }
 
+/* use ellipsis when truncating */
+.header-search-input {
+  text-overflow: ellipsis;
+}
 
 /* expand text box when focused */
 .header-search  {
