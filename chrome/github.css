@@ -96,18 +96,17 @@
 }
 
 /* expand text box when focused */
-.header-search  {
-  width: auto !important;
-}
-.header-search .header-search-wrapper {
-  width: 300px;
-}
 .header-search .header-search-wrapper.focus {
-  width: 500px;
+  width: 936px;
+  position: relative;
+  z-index: 999;
+}
+.gist-header .header-search .header-search-wrapper.focus {
+  width: 848px !important;
 }
 .js-quicksearch-results {
   /* without this, it's not possible to click to the right of 300px in the gist quicksearch results */
-  width: 500px !important;
+  width: 848px !important;
 }
 
 
