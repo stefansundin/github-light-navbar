@@ -46,15 +46,15 @@ body.logged-in .header .scoped-search .form-control.focus .header-search-scope {
   border-color: #c6d7ec !important;
 }
 
-body.logged-in .header-nav-link  {
+body.logged-in .header-navlink  {
   color: #555 !important;
 }
 
-body.logged-in .header-nav-link:hover, body.logged-in .header-nav-link:focus  {
+body.logged-in .header-navlink:hover, body.logged-in .header-navlink:focus  {
   color: #4078c0 !important;
 }
 
-body.logged-in .header-nav-link:hover .dropdown-caret, body.logged-in .header-nav-link:focus .dropdown-caret  {
+body.logged-in .header-navlink:hover .dropdown-caret, body.logged-in .header-navlink:focus .dropdown-caret  {
   border-top-color: #4078c0 !important;
 }
 
