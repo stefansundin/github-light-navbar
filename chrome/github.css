@@ -102,6 +102,7 @@ body.logged-in .gist-header .header-search .header-search-wrapper.focus {
 body.logged-in .js-quicksearch-results {
   /* without this, it's not possible to click to the right of 300px in the gist quicksearch results */
   width: 848px !important;
+  z-index: 99; /* this lets the user nav dropdown to go above the quicksearch results, which stay open even when the search field is not in focus */
 }
 
 
