@@ -4,7 +4,7 @@ body.logged-in .header {
   border-bottom: 1px solid #e5e5e5 !important;
 }
 
-body.logged-in .accessibility-aid:focus {
+body.logged-in a[href="#start-of-content"]:focus {
   color: #333 !important;
   background-color: #f5f5f5 !important;
 }
