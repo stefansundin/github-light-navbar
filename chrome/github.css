@@ -14,11 +14,11 @@ body.logged-in .read-only-mode-banner {
   border-bottom-color: #f6dc2e !important;
 }
 
-body.logged-in .header-logo-invertocat, body.logged-in .header-logo-wordmark {
+body.logged-in .header .header-logo-invertocat, body.logged-in .header .header-logo-wordmark {
   color: #555 !important;
 }
 
-body.logged-in .header-logo-invertocat:hover, body.logged-in .header-logo-wordmark:hover {
+body.logged-in .header .header-logo-invertocat:hover, body.logged-in .header .header-logo-wordmark:hover {
   color: #4078c0 !important;
 }
 
@@ -32,7 +32,7 @@ body.logged-in .header .notification-indicator:hover .mail-status {
   background-color: #4078c0 !important;
 }
 
-body.logged-in .header-search-scope {
+body.logged-in .header .header-search-scope {
   color: #767676 !important;
   border-right: 1px solid #eee !important;
   font-size: 12px !important;
@@ -46,23 +46,23 @@ body.logged-in .header .scoped-search .form-control.focus .header-search-scope {
   border-color: #c6d7ec !important;
 }
 
-body.logged-in .header-navlink  {
+body.logged-in .header .header-navlink  {
   color: #555 !important;
 }
 
-body.logged-in .header-navlink:hover, body.logged-in .header-navlink:focus  {
+body.logged-in .header .header-navlink:hover, body.logged-in .header .header-navlink:focus  {
   color: #4078c0 !important;
 }
 
-body.logged-in .header-navlink:hover .dropdown-caret, body.logged-in .header-navlink:focus .dropdown-caret  {
+body.logged-in .header .header-navlink:hover .dropdown-caret, body.logged-in .header .header-navlink:focus .dropdown-caret  {
   border-top-color: #4078c0 !important;
 }
 
-body.logged-in .header-search  {
+body.logged-in .header .header-search  {
   font-size: 14px !important;
 }
 
-body.logged-in .header-search-wrapper {
+body.logged-in .header .header-search-wrapper {
   background: #fff !important;
   box-shadow: inset 0 1px 2px rgba(0,0,0,0.075) !important;
   border: 1px solid #ddd !important;
@@ -71,35 +71,35 @@ body.logged-in .header-search-wrapper {
   color: inherit !important;
 }
 
-body.logged-in .header-search-wrapper.focus {
+body.logged-in .header .header-search-wrapper.focus {
   background: #fff !important;
   border-color: #51a7e8 !important;
   outline: none !important;
   box-shadow: inset 0 1px 2px rgba(0,0,0,.075), 0 0 5px rgba(81,167,232,.5) !important;
 }
 
-body.logged-in .header-search-input {
+body.logged-in .header .header-search-input {
   min-height: 26px !important;
 }
 
-body.logged-in .header-search-input::-webkit-input-placeholder {
+body.logged-in .header .header-search-input::-webkit-input-placeholder {
   color: rgba(0,0,0,.5) !important;
 }
 
-body.logged-in .header-search-input::placeholder {
+body.logged-in .header .header-search-input::placeholder {
   color: rgba(0,0,0,.5) !important;
 }
 
 /* expand text box when focused */
-body.logged-in .header-search .header-search-wrapper.focus {
+body.logged-in .header .header-search .header-search-wrapper.focus {
   width: 936px;
   position: relative;
   z-index: 999;
 }
-body.logged-in .gist-header .header-search .header-search-wrapper.focus {
+body.logged-in .header.gist-header .header-search .header-search-wrapper.focus {
   width: 848px !important;
 }
-body.logged-in .js-quicksearch-results {
+body.logged-in .header .js-quicksearch-results {
   /* without this, it's not possible to click to the right of 300px in the gist quicksearch results */
   width: 848px !important;
   z-index: 99; /* this lets the user nav dropdown to go above the quicksearch results, which stay open even when the search field is not in focus */
