@@ -91,18 +91,34 @@ body.logged-in .Header .header-search-input::placeholder {
 }
 
 /* expand text box when focused */
-body.logged-in .Header .header-search .header-search-wrapper.focus {
-  width: 936px;
-  position: relative;
-  z-index: 999;
+body.logged-in .Header.search-focused ul[role="navigation"],
+body.logged-in .Header.search-focused #user-links > li:not(.dropdown) {
+  display: none !important;
 }
+body.logged-in .Header .header-search {
+  width: auto !important;
+}
+body.logged-in .Header .header-search .header-search-wrapper {
+  width: 255px !important;
+}
+body.logged-in .Header .header-search .header-search-wrapper.focus {
+  width: 820px !important;
+}
+body.logged-in .Header .jump-to-suggestions {
+  width: 820px !important;
+}
+body.logged-in .Header .header-search-key-slash {
+  cursor: text;
+}
+
+/* gist */
 body.logged-in .Header.gist-header .header-search .header-search-wrapper.focus {
-  width: 848px !important;
+  width: 790px !important;
 }
 body.logged-in .Header .js-quicksearch-results {
   /* without this, it's not possible to click to the right of 300px in the gist quicksearch results */
-  width: 848px !important;
-  z-index: 99; /* this lets the user nav dropdown to go above the quicksearch results, which stay open even when the search field is not in focus */
+  width: 790px !important;
+  z-index: 99; /* this lets the user nav dropdown to go above the quicksearch results */
 }
 
 
