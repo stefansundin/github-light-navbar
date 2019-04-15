@@ -14,11 +14,13 @@ body.logged-in .read-only-mode-banner {
   border-bottom-color: #f6dc2e !important;
 }
 
-body.logged-in .Header .header-logo-invertocat, body.logged-in .Header .header-logo-wordmark {
+body.logged-in .Header .header-logo-invertocat,
+body.logged-in .Header .header-logo-wordmark {
   color: #555 !important;
 }
 
-body.logged-in .Header .header-logo-invertocat:hover, body.logged-in .Header .header-logo-wordmark:hover {
+body.logged-in .Header .header-logo-invertocat:hover,
+body.logged-in .Header .header-logo-wordmark:hover {
   color: #4078c0 !important;
 }
 
@@ -46,15 +48,17 @@ body.logged-in .Header .scoped-search .form-control.focus .header-search-scope {
   border-color: #c6d7ec !important;
 }
 
-body.logged-in .Header .HeaderNavlink  {
+body.logged-in .Header .Header-link  {
   color: #555 !important;
 }
 
-body.logged-in .Header .HeaderNavlink:hover, body.logged-in .Header .HeaderNavlink:focus  {
+body.logged-in .Header .Header-link:hover,
+body.logged-in .Header .Header-link:focus  {
   color: #4078c0 !important;
 }
 
-body.logged-in .Header .HeaderNavlink:hover .dropdown-caret, body.logged-in .Header .HeaderNavlink:focus .dropdown-caret  {
+body.logged-in .Header .Header-link:hover .dropdown-caret,
+body.logged-in .Header .Header-link:focus .dropdown-caret  {
   border-top-color: #4078c0 !important;
 }
 
@@ -81,11 +85,9 @@ body.logged-in .Header .header-search-wrapper.focus {
 body.logged-in .Header .header-search-input {
   min-height: 26px !important;
 }
-
 body.logged-in .Header .header-search-input::-webkit-input-placeholder {
   color: rgba(0,0,0,.5) !important;
 }
-
 body.logged-in .Header .header-search-input::placeholder {
   color: rgba(0,0,0,.5) !important;
 }
