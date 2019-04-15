@@ -10,8 +10,7 @@
   "content_scripts": [
     {
       "matches": ["https://*.github.com/*"],
-      "css": ["github.css"],
-      "js": ["github.js"]
+      "css": ["github.css"]
     }
   ],
   "manifest_version": 2

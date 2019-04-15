@@ -90,31 +90,7 @@ body.logged-in .Header .header-search-input::placeholder {
   color: rgba(0,0,0,.5) !important;
 }
 
-/* expand text box when focused */
-body.logged-in .Header.search-focused ul[role="navigation"],
-body.logged-in .Header.search-focused #user-links > li:not(.dropdown) {
-  display: none !important;
-}
-body.logged-in .Header .header-search {
-  width: auto !important;
-}
-body.logged-in .Header .header-search .header-search-wrapper {
-  width: 255px !important;
-}
-body.logged-in .Header .header-search .header-search-wrapper.focus {
-  width: 820px !important;
-}
-body.logged-in .Header .jump-to-suggestions {
-  width: 820px !important;
-}
-body.logged-in .Header .header-search-key-slash {
-  cursor: text;
-}
-
 /* gist */
-body.logged-in .Header.gist-header .header-search .header-search-wrapper.focus {
-  width: 790px !important;
-}
 body.logged-in .Header .js-quicksearch-results {
   /* without this, it's not possible to click to the right of 300px in the gist quicksearch results */
   width: 790px !important;
