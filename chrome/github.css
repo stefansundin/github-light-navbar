@@ -123,9 +123,9 @@ body.logged-in .Header .js-quicksearch-results {
 }
 
 
-/* use ellipsis when truncating */
 .header-search-input {
-  text-overflow: ellipsis;
+  width: 100%;
+  text-overflow: ellipsis; /* use ellipsis when truncating */
 }
 
 /* allow textarea to be resized to a max-height larger than 500px (why would they even think about limiting this?!) */
