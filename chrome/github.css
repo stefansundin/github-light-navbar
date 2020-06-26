@@ -5,6 +5,11 @@
   }
 }
 
+/* remove transition */
+.header-search {
+  transition: none !important;
+}
+
 body.logged-in .Header {
   color: #333 !important;
   background-color: #f5f5f5 !important;
