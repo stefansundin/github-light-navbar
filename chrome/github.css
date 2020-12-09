@@ -95,7 +95,7 @@ body.logged-in .Header .header-search-wrapper.focus {
 }
 
 body.logged-in .Header .header-search-input {
-  min-height: 26px !important;
+  min-height: 27px !important;
 }
 body.logged-in .Header .header-search-input::-webkit-input-placeholder {
   color: rgba(0,0,0,.5) !important;
