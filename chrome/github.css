@@ -10,6 +10,35 @@
   transition: none !important;
 }
 
+/* this nav appears when you're viewing a file and make the window narrow enough so that the hamburger menu appears */
+.reponav-wrapper {
+  background-color: #f5f5f5 !important;
+}
+a.reponav-item {
+  color: #333 !important;
+}
+a.reponav-item:hover {
+  color: #4078c0 !important;
+}
+
+/* gist */
+body.logged-in .Header .js-quicksearch-results {
+  /* without this, it's not possible to click to the right of 300px in the gist quicksearch results */
+  width: 790px !important;
+  z-index: 99; /* this lets the user nav dropdown to go above the quicksearch results */
+}
+
+.header-search-input {
+  width: 100%;
+  text-overflow: ellipsis; /* use ellipsis when truncating */
+}
+
+/* allow textarea to be resized to a max-height larger than 500px (why would they even think about limiting this?!) */
+textarea {
+  max-height: none !important;
+}
+
+
 body.logged-in .Header {
   color: #333 !important;
   background-color: #f5f5f5 !important;
@@ -102,33 +131,4 @@ body.logged-in .Header .header-search-input::-webkit-input-placeholder {
 }
 body.logged-in .Header .header-search-input::placeholder {
   color: rgba(0,0,0,.5) !important;
-}
-
-/* this nav appears when you're viewing a file and make the window narrow enough so that the hamburger menu appears */
-.reponav-wrapper {
-  background-color: #f5f5f5 !important;
-}
-a.reponav-item {
-  color: #333 !important;
-}
-a.reponav-item:hover {
-  color: #4078c0 !important;
-}
-
-/* gist */
-body.logged-in .Header .js-quicksearch-results {
-  /* without this, it's not possible to click to the right of 300px in the gist quicksearch results */
-  width: 790px !important;
-  z-index: 99; /* this lets the user nav dropdown to go above the quicksearch results */
-}
-
-
-.header-search-input {
-  width: 100%;
-  text-overflow: ellipsis; /* use ellipsis when truncating */
-}
-
-/* allow textarea to be resized to a max-height larger than 500px (why would they even think about limiting this?!) */
-textarea {
-  max-height: none !important;
 }
