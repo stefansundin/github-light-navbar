@@ -125,14 +125,20 @@ html[data-color-mode="light"] body.logged-in .Header .header-search-wrapper.focu
   box-shadow: inset 0 1px 2px rgba(0,0,0,.075), 0 0 5px rgba(81,167,232,.5) !important;
 }
 
+html[data-color-mode="light"] body.logged-in .Header .search-input-container {
+  background: #fff !important;
+}
+
 html[data-color-mode="light"] body.logged-in .Header .header-search-input {
   min-height: 27px !important;
 }
-html[data-color-mode="light"] body.logged-in .Header .header-search-input::-webkit-input-placeholder {
+html[data-color-mode="light"] body.logged-in .Header .header-search-input::-webkit-input-placeholder,
+html[data-color-mode="light"] body.logged-in .Header .header-search-input::placeholder,
+html[data-color-mode="light"] body.logged-in .Header .header-search-button.placeholder {
   color: rgba(0,0,0,.5) !important;
 }
-html[data-color-mode="light"] body.logged-in .Header .header-search-input::placeholder {
-  color: rgba(0,0,0,.5) !important;
+html[data-color-mode="light"] body.logged-in .Header .header-search-button {
+  color: #000 !important;
 }
 
 /* Is there a better way to avoid duplicating this? */
@@ -222,13 +228,19 @@ html[data-color-mode="light"] body.logged-in .Header .header-search-input::place
     box-shadow: inset 0 1px 2px rgba(0,0,0,.075), 0 0 5px rgba(81,167,232,.5) !important;
   }
 
+  html[data-color-mode="auto"][data-light-theme="light"] body.logged-in .Header .search-input-container {
+    background: #fff !important;
+  }
+
   html[data-color-mode="auto"][data-light-theme="light"] body.logged-in .Header .header-search-input {
     min-height: 27px !important;
   }
-  html[data-color-mode="auto"][data-light-theme="light"] body.logged-in .Header .header-search-input::-webkit-input-placeholder {
+  html[data-color-mode="auto"][data-light-theme="light"] body.logged-in .Header .header-search-input::-webkit-input-placeholder,
+  html[data-color-mode="auto"][data-light-theme="light"] body.logged-in .Header .header-search-input::placeholder,
+  html[data-color-mode="auto"][data-light-theme="light"] body.logged-in .Header .header-search-button.placeholder {
     color: rgba(0,0,0,.5) !important;
   }
-  html[data-color-mode="auto"][data-light-theme="light"] body.logged-in .Header .header-search-input::placeholder {
-    color: rgba(0,0,0,.5) !important;
+  html[data-color-mode="auto"][data-light-theme="light"] body.logged-in .Header .header-search-button {
+    color: #000 !important;
   }
 }
